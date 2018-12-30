@@ -1,0 +1,14 @@
+.app {
+  color: red;
+
+  &__header {
+    color: yellow;
+    &:hover {
+      background: gray;
+    }
+  }
+
+  &--green {
+    color: green;
+  }
+}
