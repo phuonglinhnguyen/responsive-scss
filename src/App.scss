@@ -1,18 +1,142 @@
+$btnmenu:#333;
+$xamdam:#707374;
+$xamnhat:#cccccc;
+$btndownload:#fe3a2f;
+$xamnen:#f1f1f1;
 .app {
-  color: red;
-
+  font-family: "Roboto";
   &__header {
-    color: yellow;
-    &:hover {
-      background: gray;
+    display: flex;
+    &__logo {
+      width: 90%;
+      &__img {
+        padding: 10px;
+        width: 30%;
+      }
+    }
+    &__nav {
+      transition: margin-left 0.5s;
+      padding: 10px;
+      &__menu {
+        display: inline-block;
+        cursor: pointer;
+        &__bar1,
+        &__bar2,
+        &__bar3 {
+          width: 35px;
+          height: 5px;
+          background-color: $btnmenu;
+          margin: 6px 0;
+          transition: 0.4s;
+        }
+      }
     }
   }
+  &__main {
+    &__intro {
+      background-color: $xamdam;
+      padding: 50px 20px 80px 20px;
+      text-align: center;
+      
+      &__download {
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10px;
+        width: 80%;
+        margin: auto;
+        .btn__demo {
+          width: 100%;
+          background-color: $xamdam;
+          color: white;
+          border: 1px solid white;
+          padding: 10px;
+        }
+        .btn__download {
+          width: 100%;
+          background-color: $btndownload;
+          color: white;
+          border: 1px solid $btndownload;
+          padding: 10px;
+          &:hover {
+            background-color: blue;
+            border: 1px solid blue;
+          }
+        }
+      }
+    }
+    &__explore {
+      &__content {
+        padding: 20px;
+        text-align: center;
+        .gachphancach {
+          width: 30px;
+          background-color: #56c7f8;
+        }
+      }
+      &__work1 {
+        background-color: $xamnen;
+        width: 100%;
+        padding-top: 20px;
+        &__content {
+          margin: auto;
+          width: 95%;
+          .img_work1 {
+            width: 100%;
+            background-color: $xamnhat;
+            height: 200px;
+          }
+          .item_work1 {
+            &__title {
+              font-size: 15px;
+              font-weight: bold;
+              color: #4a4a4a;
+            }
+            &__para {
+              font-size: 13px;
+              color: #9a9a9a;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+// định dạng font chữ
+// font RWD giới thiệu
+.font-1 {
+  margin: 0;
+  color: #ffffff;
+  font-size: 20px;
+}
+// font nội dung của RWD giới thiệu
+.font-2 {
+  margin: 10px;
+  color: #ffffff;
+  font-size: 10px;
+}
+// font WORK1
+.font-3 {
+  font-size: 25px;
+  color: #8f8f8f;
+  padding: 90px 130px;
+}
+// font tiêu đề item work1
+.font-4 {
+  font-size: 13px;
+  color: #9a9a9a;
+}
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+}
 
-  &--green {
-    color: green;
-  }
-  
-  &--green2 {
-    color: green;
-  }
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
 }
