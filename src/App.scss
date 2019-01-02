@@ -1,8 +1,8 @@
-$btnmenu:#333;
-$xamdam:#707374;
-$xamnhat:#cccccc;
-$btndownload:#fe3a2f;
-$xamnen:#f1f1f1;
+$btnmenu: #333;
+$xamdam: #707374;
+$xamnhat: #cccccc;
+$btndownload: #fe3a2f;
+$xamnen: #f1f1f1;
 .app {
   font-family: "Roboto";
   &__header {
@@ -37,7 +37,7 @@ $xamnen:#f1f1f1;
       background-color: $xamdam;
       padding: 50px 20px 80px 20px;
       text-align: center;
-      
+
       &__download {
         display: grid;
         grid-template-columns: 50% 50%;
@@ -68,15 +68,12 @@ $xamnen:#f1f1f1;
       &__content {
         padding: 20px;
         text-align: center;
-        .gachphancach {
-          width: 30px;
-          background-color: #56c7f8;
-        }
       }
       &__work1 {
         background-color: $xamnen;
         width: 100%;
         padding-top: 20px;
+        padding-bottom: 100px;
         &__content {
           margin: auto;
           width: 95%;
@@ -84,6 +81,7 @@ $xamnen:#f1f1f1;
             width: 100%;
             background-color: $xamnhat;
             height: 200px;
+            text-align: center;
           }
           .item_work1 {
             &__title {
@@ -96,6 +94,158 @@ $xamnen:#f1f1f1;
               color: #9a9a9a;
             }
           }
+        }
+      }
+    }
+    &__plans {
+      background-color: #f1faff;
+      &__content {
+        text-align: center;
+        padding: 40px 10px 10px 10px;
+      }
+      &__price {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr 1fr;
+        grid-gap: 20px;
+        .item_price {
+          background-color: white;
+          padding: 20px 10px;
+          .special {
+            margin-bottom: 3px;
+          }
+          &__charge {
+            display: flex;
+            // padding-left: 100px;
+            text-align: center;
+            width: 30%;
+            margin: auto;
+            .charge1 {
+              font-weight: bold;
+              color: #5e5e5e;
+            }
+            .charge2 {
+              font-weight: bold;
+              font-size: 40px;
+              color: #5e5e5e;
+            }
+            .charge3 {
+              font-size: 13px;
+              color: #9a9a9a;
+              padding-top: 25px;
+            }
+          }
+          .btnselect {
+            background-color: #15b2f6;
+            border: none;
+            padding: 10px;
+            font-size: 10px;
+            color: white;
+            margin-top: 20px;
+          }
+          .spe {
+            background-color: $btndownload;
+          }
+        }
+      }
+      &__content1 {
+        width: 90%;
+        padding: 50px 0;
+        margin: auto;
+      }
+    }
+    &__services {
+      &__content {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+      }
+      &__listservice {
+        margin: 40px auto 0 auto;
+        width: 95%;
+        .item__service {
+          display: flex;
+          margin-bottom: 30px;
+          &__img {
+            .service_img {
+              width: 100%;
+            }
+          }
+        }
+      }
+      &__btn {
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        .btnlearnmore {
+          border: none;
+          padding: 10px;
+          background-color: #50c5f8;
+          font-size: 11px;
+          color: white;
+          margin-bottom: 50px;
+        }
+      }
+    }
+    &__meetteam {
+      background-color: #f1faff ;
+      padding-bottom: 60px;
+      &__content {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+        padding-top: 40px;
+      }
+      &__team {
+        margin: 50px 10px 0 10px;
+        display: grid;
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-gap: 60px;
+        .team__custom {
+          position: relative;
+          width: 90%;
+          margin: auto;
+          background-color: white;
+          height: 165px;
+          text-align: center;
+          &__avt {
+            position: absolute;
+            width: 70px;
+            top: -40px;
+            left: 120px;
+            background-color: $xamnhat;
+            border-radius: 50%;
+            margin: auto;
+            border: 10px solid #f1faff ;
+
+            .img_team {
+              padding: 25px;
+            }
+          }
+          &__info {
+           padding-top: 60px;
+          }
+        }
+      }
+    }
+  }
+  &__footer {
+    padding: 20px 10px;
+    background-color:#3f5267;
+    &__item {
+      padding: 10px;
+      &__address {
+        .addresscustom{
+          display: flex;
+          margin: 10px 0;
+            .icon {
+              color: #15b2f6;
+              padding-right: 10px;
+            }
+          
         }
       }
     }
@@ -122,8 +272,46 @@ $xamnen:#f1f1f1;
 }
 // font tiêu đề item work1
 .font-4 {
-  font-size: 13px;
+  font-size: 10px;
   color: #9a9a9a;
+  margin: 0;
+}
+.font-5 {
+  margin: 0;
+  font-size: 15px;
+}
+.font-6 {
+  font-size: 12px;
+  font-weight: bold;
+  color: #5e5e5e;
+  margin-bottom: 20px;
+  // margin-bottom: 3px;
+}
+// Định dạng best offer
+.font-7 {
+  font-size: 11px;
+  color: #d7dcdd;
+  margin-top: 0;
+}
+// Định dạng learn more
+.font-8 {
+  font-size: 13px;
+  color: $btndownload;
+}
+.font-9 {
+  margin-top: 0;
+  font-size: 12px;
+  font-weight: bold;
+}
+.gachphancach {
+  width: 30px;
+  background-color: #56c7f8;
+  
+}
+.gachphancachfoot {
+  margin:10px 0 10px 0;
+  width: 30px;
+  background-color: #56c7f8;
 }
 // Small devices (landscape phones, 576px and up)
 @media (min-width: 576px) {
