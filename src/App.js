@@ -141,58 +141,62 @@ class App extends Component {
               < hr className="gachphancach" />
             </div>
             <div className="services__list">
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
+              <div className="tablet ">
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
-              </div>
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-              </div>
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
-                </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-              </div>
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
-                </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-              </div>
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
-                </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
               </div>
-              <div className="list">
-                <div className="list__img">
-                  <img className="img_service" src={service1}></img>
+              <div className="tablet1">
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
-                <div className="list__content">
-                  <p className="list__title">Hand-crafted with Detailed</p>
-                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list">
+                  <div className="list__img">
+                    <img className="img_service" src={service1}></img>
+                  </div>
+                  <div className="list__content">
+                    <p className="list__title">Hand-crafted with Detailed</p>
+                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                  </div>
                 </div>
               </div>
             </div>
