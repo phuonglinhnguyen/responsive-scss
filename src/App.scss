@@ -5,46 +5,21 @@ $btndownload: #fe3a2f;
 $xamnen: #f1f1f1;
 .app {
   font-family: "Roboto";
-  &__header {
-    display: flex;
-  }
-  &__footer {
-    padding: 20px 10px;
-    background-color: #3f5267;
-    &__item {
-      padding: 10px;
-      &__address {
-        .addresscustom {
-          display: flex;
-          margin: 10px 0;
-          .icon {
-            color: #15b2f6;
-            padding-right: 10px;
-          }
-        }
-      }
-    }
-  }
 }
-.btn {
-  border-radius: 1px;
-  -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-  -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-}
-.logo {
-  padding: 10px 5px 7px 5px;
+.header {
+  display: flex;
+  &__logo {
+    padding: 10px;
+  }
   &__img {
     width: 12%;
   }
-}
-.nav {
-  transition: margin-left 0.5s;
-  padding: 10px;
-
+  &__nav {
+    transition: margin-left 0.5s;
+    padding: 10px;
+  }
   &__btn {
     display: inline;
-    cursor: pointer;
     &__bar1,
     &__bar2,
     &__bar3 {
@@ -59,6 +34,13 @@ $xamnen: #f1f1f1;
     display: none;
   }
 }
+.btn {
+  border-radius: 1px;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+}
+
 .rwd {
   background-color: $xamdam;
   padding: 50px 20px 80px 20px;
@@ -367,6 +349,23 @@ $xamnen: #f1f1f1;
     }
   }
 }
+.footer {
+  padding: 20px 10px;
+  background-color: #3f5267;
+  &__item {
+    padding: 10px;
+    &__address {
+      .addresscustom {
+        display: flex;
+        margin: 10px 0;
+        .icon {
+          color: #15b2f6;
+          padding-right: 10px;
+        }
+      }
+    }
+  }
+}
 .gachphancach {
   width: 30px;
   background-color: #56c7f8;
@@ -406,39 +405,36 @@ $xamnen: #f1f1f1;
 //   margin: auto;
 // }
 @media (min-width: 768px) {
-  .app {
-    &__header {
-      background-color: #61e2a1;
-    }
-  }
-  .logo {
+  .header {
+    background-color: #61e2a1;
     &__img {
       width: 20%;
       padding-left: 40px;
     }
-  }
-  .nav {
-    padding: 11px;
-    &__btn {
-      display: none;
-    }
-    &__menu {
-      display: inline;
-      &__a {
-        text-decoration: none;
-        margin-right: 15px;
-        color: white;
-        font-size: 12px;
-        &:hover {
-          border-bottom: 2px solid #fe3a2f;
-          cursor: pointer;
+    &__nav {
+      padding: 11px;
+      &__btn {
+        display: none;
+      }
+      &__menu {
+        display: inline;
+        &__a {
+          text-decoration: none;
+          margin-right: 15px;
+          color: white;
+          font-size: 12px;
+          &:hover {
+            border-bottom: 2px solid #fe3a2f;
+            cursor: pointer;
+          }
+        }
+        &__b {
+          border: 2px solid #fe3a2f;
         }
       }
-      &__b {
-        border: 2px solid #fe3a2f;
-      }
     }
   }
+  
   .rwd {
     padding: 120px 20px 180px 20px;
     &__buttons {
@@ -514,21 +510,20 @@ $xamnen: #f1f1f1;
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 992px) {
-  .app {
-    &__header {
-      background-color: #a87feb;
+  .header {
+    background-color: #a87feb;
+    &__logo {
+      width: 70%;
     }
-  }
-  .logo {
-    width: 70%;
     &__img {
       width: 20%;
     }
+    &__nav {
+      width: 100%;
+      margin-left: 280px;
+    }
   }
-  .nav {
-    width: 100%;
-    margin-left: 280px;
-  }
+  
   .rwd {
     padding: 120px 250px 180px 250px;
     &__buttons {
@@ -574,11 +569,10 @@ $xamnen: #f1f1f1;
 
 // Extra large devices (large desktops, 1200px and up)
 @media (min-width: 1200px) {
-  .app {
-    &__header {
+  .header {
       background-color: #e08ebe;
     }
-  }
+  
   .rwd {
     padding: 170px 250px 260px 250px;
   }

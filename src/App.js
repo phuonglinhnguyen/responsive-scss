@@ -7,27 +7,27 @@ class App extends Component {
   render() {
     return (
       <div className="app">
-        <header className="app__header">
-          <div className="logo">
-            <img className="logo__img" src={logo} />
+        <header className="header">
+          <div className="header__logo">
+            <img className="header__img" src={logo} />
           </div>
-          <div className="nav">
-            <div className="nav__btn">
-              <div className="nav__btn__bar1"></div>
-              <div className="nav__btn__bar2"></div>
-              <div className="nav__btn__bar3"></div>
+          <div className="header__nav">
+            <div className="header__btn">
+              <div className="header__btn__bar1"></div>
+              <div className="header__btn__bar2"></div>
+              <div className="header__btn__bar3"></div>
             </div>
-            <div className="nav__menu">
-              <a className="nav__menu__a" href="#">Home</a>
-              <a className="nav__menu__a" href="#">Explore</a>
-              <a className="nav__menu__a" href="#">Pricing</a>
-              <a className="nav__menu__a" href="#">Services</a>
-              <a className="nav__menu__a" href="#">Team</a>
-              <a className="nav__menu__b" href="#">Sign up free</a>
+            <div className="header__menu">
+              <a className="header__menu__a" href="#">Home</a>
+              <a className="header__menu__a" href="#">Explore</a>
+              <a className="header__menu__a" href="#">Pricing</a>
+              <a className="header__menu__a" href="#">Services</a>
+              <a className="header__menu__a" href="#">Team</a>
+              <a className="header__menu__b" href="#">Sign up free</a>
             </div>
           </div>
         </header>
-        <main className="app__main">
+        <main className=".main">
           <div className="rwd">
             <div className="rwd__content">
               <h1 className="rwd__title">RWD - RESPONSIVE WEB DESIGN</h1>
@@ -281,7 +281,7 @@ class App extends Component {
             </div>
           </div>
         </main>
-        <footer className="app__footer">
+        <footer className=".footer">
           <div className="app__footer__item">
             <h1 className="font-1">About Us</h1>
             <hr className="gachphancachfoot" />
