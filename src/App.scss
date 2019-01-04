@@ -5,320 +5,8 @@ $btndownload: #fe3a2f;
 $xamnen: #f1f1f1;
 .app {
   font-family: "Roboto";
-  .btn {
-    border-radius: 1px;
-    -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-    -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-    box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
-  }
   &__header {
     display: flex;
-    .logo {
-      width: 90%;
-      &__img {
-        padding: 10px;
-        width: 30%;
-      }
-    }
-    .nav {
-      transition: margin-left 0.5s;
-      padding: 10px;
-      &__btn {
-        display: inline;
-        cursor: pointer;
-        &__bar1,
-        &__bar2,
-        &__bar3 {
-          width: 35px;
-          height: 5px;
-          background-color: $btnmenu;
-          margin: 6px 0;
-          transition: 0.4s;
-        }
-      }
-      &__menu {
-        display: none;
-      }
-    }
-  }
-  &__main {
-    .rwd {
-      background-color: $xamdam;
-      padding: 50px 20px 80px 20px;
-      text-align: center;
-
-      &__title {
-        margin: 0;
-        color: #ffffff;
-        font-size: 20px;
-      }
-      &__text {
-        margin: 10px;
-        color: #ffffff;
-        font-size: 10px;
-      }
-      &__buttons {
-        display: grid;
-        grid-template-columns: 50% 50%;
-        grid-gap: 10px;
-        width: 80%;
-        margin: auto;
-        &__demo {
-          width: 100%;
-          background-color: $xamdam;
-          color: white;
-          border: 1px solid white;
-          padding: 10px;
-        }
-        &__download {
-          width: 100%;
-          background-color: $btndownload;
-          color: white;
-          border: 1px solid $btndownload;
-          padding: 10px;
-          &:hover {
-            background-color: blue;
-            border: 1px solid blue;
-          }
-        }
-      }
-    }
-    .explore {
-      &__content {
-        padding: 20px 20px 40px 20px;
-        text-align: center;
-      }
-      &__title {
-        font-size: 20px;
-        margin-bottom: 10px;
-      }
-      &__text {
-        margin: 0;
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
-      &__work1 {
-        background-color: $xamnen;
-        width: 100%;
-        padding-top: 20px;
-        padding-bottom: 100px;
-        .work1 {
-          margin: auto;
-          width: 95%;
-          &__img {
-            width: 100%;
-            background-color: $xamnhat;
-            height: 200px;
-            text-align: center;
-          }
-          &__text {
-            font-size: 25px;
-            color: #8f8f8f;
-            padding: 90px 130px;
-          }
-          &__item {
-            &__title {
-              font-size: 15px;
-              font-weight: bold;
-              color: #4a4a4a;
-            }
-            &__para {
-              font-size: 13px;
-              color: #9a9a9a;
-            }
-            &__text {
-              font-size: 10px;
-              color: #9a9a9a;
-              margin: 0;
-            }
-          }
-        }
-      }
-    }
-    .pricing {
-      background-color: #f1faff;
-      &__content {
-        text-align: center;
-        padding: 40px 10px 10px 10px;
-      }
-      &__title {
-        margin: 0;
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
-      &__text {
-        margin: 0;
-        font-size: 10px;
-        margin-bottom: 20px;
-      }
-      &__learnmore {
-        font-size: 13px;
-        color: $btndownload;
-      }
-      &__detail {
-        text-align: center;
-        width: 95%;
-        margin: auto;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr 1fr;
-        grid-gap: 20px;
-        .detail {
-          background-color: white;
-          padding: 20px 10px;
-          &__title {
-            font-size: 12px;
-            font-weight: bold;
-            color: #5e5e5e;
-            margin-bottom: 20px;
-          }
-          &__offer {
-            font-size: 11px;
-            color: #d7dcdd;
-            margin-top: 0;
-          }
-          .special {
-            margin-bottom: 3px;
-          }
-          &__charge {
-            display: flex;
-            // padding-left: 100px;
-            text-align: center;
-            width: 90px;
-            margin: auto;
-            .charge1 {
-              font-weight: bold;
-              color: #5e5e5e;
-            }
-            .charge2 {
-              font-weight: initial;
-              font-size: 40px;
-              color: #5e5e5e;
-            }
-            .charge3 {
-              font-size: 13px;
-              color: #9a9a9a;
-              padding-top: 25px;
-            }
-          }
-          .btnselect {
-            background-color: #15b2f6;
-            border: none;
-            padding: 10px;
-            font-size: 10px;
-            color: white;
-            margin-top: 20px;
-          }
-          .spe {
-            background-color: $btndownload;
-          }
-        }
-      }
-      &__content1 {
-        width: 95%;
-        padding: 50px 0;
-        margin: auto;
-      }
-    }
-    .services {
-      &__content {
-        text-align: center;
-        width: 95%;
-        margin: auto;
-        padding-top: 40px;
-      }
-      &__title {
-        margin: 0;
-        font-size: 15px;
-        margin-bottom: 20px;
-      }
-      &__text {
-        margin: 0;
-        font-size: 10px;
-        margin-bottom: 20px;
-      }
-      &__list {
-        margin: 40px auto 0 auto;
-        width: 95%;
-        .list {
-          display: flex;
-          margin-bottom: 30px;
-          &__img {
-            width: 30%;
-            padding: 10px;
-            .img_service {
-              width: 100%;
-            }
-          }
-          &__content {
-            padding: 10px 20px 0 0;
-          }
-          &__title {
-            margin-top: 0;
-            font-size: 12px;
-            font-weight: bold;
-          }
-          &__text {
-            margin: 0;
-            font-size: 10px;
-            margin-bottom: 20px;
-          }
-        }
-      }
-      &__buttons {
-        width: 70%;
-        margin: auto;
-        text-align: center;
-        &__learnmore {
-          border: none;
-          padding: 10px;
-          background-color: #50c5f8;
-          font-size: 11px;
-          color: white;
-          margin-bottom: 50px;
-        }
-      }
-    }
-    &__meetteam {
-      background-color: #f1faff;
-      padding-bottom: 60px;
-      &__content {
-        text-align: center;
-        width: 90%;
-        margin: auto;
-        padding-top: 40px;
-      }
-      &__team {
-        margin: 50px 10px 0 10px;
-        display: grid;
-        grid-template-rows: 1fr 1fr 1fr;
-        grid-gap: 60px;
-        .team__custom {
-          position: relative;
-          width: 90%;
-          margin: auto;
-          background-color: white;
-          height: 165px;
-          text-align: center;
-          &__avt {
-            position: absolute;
-            width: 70px;
-            top: -40px;
-            left: 120px;
-            background-color: $xamnhat;
-            border-radius: 50%;
-            margin: auto;
-            border: 10px solid #f1faff;
-
-            .img_team {
-              padding: 25px;
-            }
-          }
-          &__info {
-            padding-top: 60px;
-          }
-        }
-      }
-    }
   }
   &__footer {
     padding: 20px 10px;
@@ -332,6 +20,347 @@ $xamnen: #f1f1f1;
           .icon {
             color: #15b2f6;
             padding-right: 10px;
+          }
+        }
+      }
+    }
+  }
+}
+.btn {
+  border-radius: 1px;
+  -webkit-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+  -moz-box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+  box-shadow: -1px 1px 5px 0px rgba(0, 0, 0, 0.21);
+}
+.logo {
+  padding: 10px 5px 7px 5px;
+  &__img {
+    width: 12%;
+  }
+}
+.nav {
+  transition: margin-left 0.5s;
+  padding: 10px;
+
+  &__btn {
+    display: inline;
+    cursor: pointer;
+    &__bar1,
+    &__bar2,
+    &__bar3 {
+      width: 14px;
+      height: 2px;
+      background-color: #333;
+      margin: 2px 0;
+      transition: 0.4s;
+    }
+  }
+  &__menu {
+    display: none;
+  }
+}
+.rwd {
+  background-color: $xamdam;
+  padding: 50px 20px 80px 20px;
+  text-align: center;
+
+  &__title {
+    margin: 0;
+    color: #ffffff;
+    font-size: 20px;
+  }
+  &__text {
+    margin: 10px;
+    color: #ffffff;
+    font-size: 10px;
+  }
+  &__buttons {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+    width: 80%;
+    margin: auto;
+    &__demo {
+      width: 100%;
+      background-color: $xamdam;
+      color: white;
+      border: 1px solid white;
+      padding: 10px;
+    }
+    &__download {
+      width: 100%;
+      background-color: $btndownload;
+      color: white;
+      border: 1px solid $btndownload;
+      padding: 10px;
+      &:hover {
+        background-color: blue;
+        border: 1px solid blue;
+      }
+    }
+  }
+}
+.explore {
+  &__content {
+    padding: 20px 20px 40px 20px;
+    text-align: center;
+  }
+  &__title {
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+  &__text {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  &__work1 {
+    background-color: $xamnen;
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 100px;
+    .work1 {
+      margin: auto;
+      width: 95%;
+      &__img {
+        width: 100%;
+        background-color: $xamnhat;
+        height: 200px;
+        text-align: center;
+      }
+      &__text {
+        font-size: 25px;
+        color: #8f8f8f;
+        padding: 90px 130px;
+      }
+      &__item {
+        &__title {
+          font-size: 15px;
+          font-weight: bold;
+          color: #4a4a4a;
+        }
+        &__para {
+          font-size: 13px;
+          color: #9a9a9a;
+        }
+        &__text {
+          font-size: 10px;
+          color: #9a9a9a;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+.pricing {
+  background-color: #f1faff;
+  &__content {
+    text-align: center;
+    padding: 40px 10px 10px 10px;
+  }
+  &__title {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  &__learnmore {
+    font-size: 10px;
+    color: $btndownload;
+  }
+  &__detail {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    .detail {
+      background-color: white;
+      padding: 20px 10px;
+      &__title {
+        font-size: 12px;
+        font-weight: bold;
+        color: #5e5e5e;
+        margin-bottom: 20px;
+      }
+      &__offer {
+        font-size: 11px;
+        color: #d7dcdd;
+        margin-top: 0;
+      }
+      .special {
+        margin-bottom: 3px;
+      }
+      &__charge {
+        display: flex;
+        // padding-left: 100px;
+        text-align: center;
+        width: 90px;
+        margin: auto;
+        .charge1 {
+          font-weight: bold;
+          color: #5e5e5e;
+        }
+        .charge2 {
+          font-weight: initial;
+          font-size: 40px;
+          color: #5e5e5e;
+        }
+        .charge3 {
+          font-size: 13px;
+          color: #9a9a9a;
+          padding-top: 25px;
+        }
+      }
+      .btnselect {
+        background-color: #15b2f6;
+        border: none;
+        padding: 10px;
+        font-size: 10px;
+        color: white;
+        margin-top: 20px;
+      }
+      .spe {
+        background-color: $btndownload;
+      }
+    }
+  }
+  &__content1 {
+    width: 95%;
+    padding: 50px 0;
+    margin: auto;
+  }
+}
+.services {
+  &__content {
+    text-align: center;
+    width: 95%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  &__title {
+    margin: 0;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  &__text {
+    margin: 0;
+    font-size: 10px;
+    margin-bottom: 20px;
+  }
+  &__list {
+    margin: 40px auto 0 auto;
+    width: 95%;
+    .list {
+      display: flex;
+      margin-bottom: 30px;
+      &__img {
+        width: 30%;
+        padding: 10px;
+        .img_service {
+          width: 100%;
+        }
+      }
+      &__content {
+        padding: 10px 20px 0 0;
+      }
+      &__title {
+        margin-top: 0;
+        font-size: 12px;
+        font-weight: bold;
+      }
+      &__text {
+        margin: 0;
+        font-size: 10px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+  &__buttons {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    &__learnmore {
+      border: none;
+      padding: 10px;
+      background-color: #50c5f8;
+      font-size: 11px;
+      color: white;
+      margin-bottom: 50px;
+    }
+  }
+}
+.meetteam {
+  background-color: #f1faff;
+  padding-bottom: 60px;
+  &__content {
+    text-align: center;
+    width: 90%;
+    margin: auto;
+    padding-top: 40px;
+  }
+
+  &__team {
+    margin: 50px 10px 0 10px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 60px;
+    .tabletteam {
+      display: grid;
+      grid-template-rows: 1fr 1fr;
+      width: 95%;
+      grid-gap: 60px;
+      margin: auto;
+    }
+    .custom {
+      position: relative;
+      width: 90%;
+      margin: auto;
+      background-color: white;
+      text-align: center;
+      &__avt {
+        position: absolute;
+        width: 100%;
+        top: -40px;
+        left: 0;
+        right: 0;
+        .img_team {
+          width: 20px;
+          margin: auto;
+          overflow: hidden;
+          padding: 25px;
+          background-color: #cccccc;
+          border-radius: 50%;
+          border: 10px solid #f1faff;
+        }
+      }
+      &__info {
+        padding-top: 50px;
+        &__name {
+          font-size: 12px;
+          font-weight: bold;
+        }
+        &__major {
+          font-size: 10.5px;
+          color: $xamnhat;
+        }
+        &__detail {
+          padding: 10px 12px;
+        }
+        &__text {
+          margin: 0;
+          font-size: 10px;
+        }
+        &__contact {
+          width: 50%;
+          margin: auto;
+          .ic {
+            padding: 10px 5px 20px 5px;
           }
         }
       }
@@ -352,126 +381,130 @@ $xamnen: #f1f1f1;
   .app {
     &__header {
       background-color: #c0e261;
-      .logo {
-        &__img {
-          width: 20%;
-        }
-      }
     }
-    &__main {
-      .services {
-        &__list {
-          .list {
-            &__img {
-              width: 10%;
-            }
-          }
-        }
-      }
+  }
+  .logo {
+    &__img {
+      width: 10%;
+    }
+  }
+  .nav {
+    padding: 13px;
+  }
+  .list {
+    &__img {
+      width: 10%;
     }
   }
 }
 
 // Medium devices (tablets, 768px and up)
+// .tabletteam {
+//   display: grid;
+//   grid-template: 1fr/ 1fr 1fr;
+//   width: 95%;
+//   margin: auto;
+// }
 @media (min-width: 768px) {
   .app {
     &__header {
       background-color: #61e2a1;
-      .logo {
-        width: 40%;
-        &__img {
-          width: 20%;
-          padding-left: 20px;
+    }
+  }
+  .logo {
+    &__img {
+      width: 20%;
+      padding-left: 40px;
+    }
+  }
+  .nav {
+    padding: 11px;
+    &__btn {
+      display: none;
+    }
+    &__menu {
+      display: inline;
+      &__a {
+        text-decoration: none;
+        margin-right: 15px;
+        color: white;
+        font-size: 12px;
+        &:hover {
+          border-bottom: 2px solid #fe3a2f;
+          cursor: pointer;
         }
       }
-      .nav {
-        &__btn {
-          display: none;
+      &__b {
+        border: 2px solid #fe3a2f;
+      }
+    }
+  }
+  .rwd {
+    padding: 120px 20px 180px 20px;
+    &__buttons {
+      width: 40%;
+    }
+  }
+  .explore {
+    &__content {
+      padding: 30px 25px 40px 25px;
+    }
+    &__work1 {
+      .work1 {
+        width: 92%;
+        &__img {
+          height: 290px;
         }
-        &__menu {
-          display: inline;
-          a {
-            text-decoration: none;
-            margin-right: 20px;
-            padding-left: 5px;
-            color: white;
+        &__content {
+          .grid-1 {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 27px;
+          }
+        }
+        &__item {
+          margin: 20px 0;
+          &__title {
+            font-size: 16px;
+          }
+          &__para {
+            font-size: 14px;
+          }
+          &__text {
             font-size: 12px;
-            &:hover {
-              border-bottom: 2px solid #fe3a2f;
-            }
           }
         }
       }
     }
-    &__main {
-      .rwd {
-        padding: 120px 20px 180px 20px;
-        &__buttons {
-          width: 40%;
-        }
+  }
+  .pricing {
+    &__content {
+      padding: 45px 25px 40px 25px;
+    }
+    &__title {
+      font-size: 20px;
+    }
+
+    &__detail {
+      display: grid;
+      grid-template: 1fr/1fr 1fr;
+      grid-gap: 20px;
+      .detail {
+        padding: 20px;
       }
-      .explore {
-        &__content {
-          padding: 30px 25px 40px 25px;
-        }
-        &__work1 {
-          .work1 {
-            width: 92%;
-            &__img {
-              height: 290px;
-            }
-            &__content {
-              .grid-1 {
-                display: grid;
-                grid-template-columns: 1fr 1fr;
-                grid-gap: 27px;
-              }
-            }
-            &__item {
-              margin: 20px 0;
-              &__title {
-                font-size: 16px;
-              }
-              &__para {
-                font-size: 14px;
-              }
-              &__text {
-                font-size: 12px;
-              }
-            }
-          }
-        }
-      }
-      .pricing {
-        &__content {
-          padding: 45px 25px 40px 25px;
-        }
-        &__title {
-          font-size: 20px;
-        }
-        
-        &__detail {
-          display: grid;
-          grid-template: 1fr/1fr 1fr;
-          grid-gap: 20px;
-          .detail {
-            padding: 20px;
-          }
-        }
-      }
-      .services {
-        &__content {
-          width: 90%;
-        }
-        &__list {
-          .tablet {
-            display: grid;
-            grid-template: 1fr/1fr 1fr;
-            .list {
-              &__img {
-                width: 40%;
-              }
-            }
+    }
+  }
+  .services {
+    &__content {
+      width: 90%;
+    }
+    &__list {
+      .tablet {
+        display: grid;
+        grid-template: 1fr/1fr 1fr;
+        .list {
+          &__img {
+            width: 40%;
           }
         }
       }
@@ -484,58 +517,55 @@ $xamnen: #f1f1f1;
   .app {
     &__header {
       background-color: #a87feb;
-      .logo {
-        width: 70%;
-        &__img {
-          width: 20%;
+    }
+  }
+  .logo {
+    width: 70%;
+    &__img {
+      width: 20%;
+    }
+  }
+  .nav {
+    width: 100%;
+    margin-left: 280px;
+  }
+  .rwd {
+    padding: 120px 250px 180px 250px;
+    &__buttons {
+      width: 50%;
+    }
+  }
+  .explore {
+    &__content {
+      padding: 30px 25px 40px 25px;
+    }
+    &__work1 {
+      padding-top: 40px;
+      .work1 {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 100px;
+        &__content {
+          padding-top: 20px;
+          .grid-1 {
+            display: inline;
+          }
         }
-      }
-      .nav {
-        width: 100%;
-        margin-left: 280px;
       }
     }
-    &__main {
-      .rwd {
-        padding: 120px 250px 180px 250px;
-        &__buttons {
-          width: 50%;
-        }
-      }
-      .explore {
-        &__content {
-          padding: 30px 25px 40px 25px;
-        }
-        &__work1 {
-          padding-top: 40px;
-          .work1 {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            grid-gap: 100px;
-            &__content {
-              padding-top: 20px;
-              .grid-1 {
-                display: inline;
-              }
-            }
+  }
+  .services {
+    &__list {
+      .tablet {
+        .list {
+          &__img {
+            width: 20%;
           }
         }
       }
-      .services {
-
-        &__list {
-          .tablet {
-            .list {
-              &__img {
-                width: 20%;
-              }
-            }
-          }
-          .list {
-            &__img {
-              width: 5%;
-            }
-          }
+      .list {
+        &__img {
+          width: 5%;
         }
       }
     }
@@ -548,74 +578,72 @@ $xamnen: #f1f1f1;
     &__header {
       background-color: #e08ebe;
     }
-    &__main {
-      .rwd {
-        padding: 170px 250px 260px 250px;
-      }
-      .explore {
-        &__content {
-          padding: 30px 25px 40px 25px;
-        }
-      }
-      .pricing {
-        &__text {
-          font-size: 13px;
-        }
-        &__content {
-          padding: 45px 255px 40px 255px;
-        }
-        &__detail {
-          grid-template: 1fr/1fr 1fr 1fr 1fr;
-          grid-gap: 25px;
-          .detail {
-            &__charge {
-              .charge2 {
-                font-size: 50px;
-              }
-            }
+  }
+  .rwd {
+    padding: 170px 250px 260px 250px;
+  }
+  .explore {
+    &__content {
+      padding: 30px 25px 40px 25px;
+    }
+  }
+  .pricing {
+    &__text {
+      font-size: 13px;
+    }
+    &__content {
+      padding: 45px 255px 40px 255px;
+    }
+    &__detail {
+      grid-template: 1fr/1fr 1fr 1fr 1fr;
+      grid-gap: 25px;
+      .detail {
+        &__charge {
+          .charge2 {
+            font-size: 50px;
           }
         }
-        &__content1 {
-          width: 45%;
-          padding: 50px 320px;
-        }
       }
-      .services {
-        &__content {
-          width: 70%;
-        }
+    }
+    &__content1 {
+      width: 45%;
+      padding: 50px 320px;
+    }
+  }
+  .services {
+    &__content {
+      width: 70%;
+    }
+    &__title {
+      font-size: 20px;
+    }
+    &__text {
+      font-size: 13px;
+    }
+    &__list {
+      width: 85%;
+      display: grid;
+      grid-template: 1fr/ 70% 30%;
+      .list {
         &__title {
-          font-size: 20px;
+          font-size: 14px;
         }
         &__text {
-          font-size: 13px;
+          font-size: 12px;
         }
-        &__list {
-          width: 85%;
-          display: grid;
-          grid-template: 1fr/ 70% 30%;
-          .list {
-            &__title {
-              font-size: 14px;
-            }
-            &__text {
-              font-size: 12px;
-            }
+      }
+      .tablet1 {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        .list {
+          &__img {
+            width: 30%;
           }
-          .tablet1 {
-            display: grid;
-            grid-template-rows: 1fr 1fr;
-            .list {
-              &__img {
-                width: 30%;
-              }
-              &__title {
-                font-size: 14px;
-              }
-              &__text {
-                font-size: 12px;
-              }
-            }
+          &__title {
+            font-size: 14px;
+          }
+          &__text {
+            font-size: 12px;
           }
         }
       }

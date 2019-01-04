@@ -18,12 +18,12 @@ class App extends Component {
               <div className="nav__btn__bar3"></div>
             </div>
             <div className="nav__menu">
-              <a href="#">Home</a>
-              <a href="#">Explore</a>
-              <a href="#">Pricing</a>
-              <a href="#">Services</a>
-              <a href="#">Team</a>
-              <a href="#">Sign up free</a>
+              <a className="nav__menu__a" href="#">Home</a>
+              <a className="nav__menu__a" href="#">Explore</a>
+              <a className="nav__menu__a" href="#">Pricing</a>
+              <a className="nav__menu__a" href="#">Services</a>
+              <a className="nav__menu__a" href="#">Team</a>
+              <a className="nav__menu__b" href="#">Sign up free</a>
             </div>
           </div>
         </header>
@@ -202,55 +202,82 @@ class App extends Component {
             </div>
             <div className="services__buttons"><button className="btn services__buttons__learnmore">LEARN MORE</button></div>
           </div>
-          <div className="app__main__meetteam">
-            <div className="app__main__meetteam__content">
-              <h1 className="font-5">Meet The Team</h1>
-              <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+          <div className="meetteam">
+            <div className="meetteam__content">
+              <h1 className="pricing__title">Meet The Team</h1>
+              <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
               < hr className="gachphancach" />
             </div>
-            <div className="app__main__meetteam__team">
-              <div className="team__custom">
-                <div className="team__custom__avt">
-                  <div className="img_team">P1</div>
-                </div>
-                <div className="team__custom__info">
-                  <div className="team__custom__info__name">
-                    <p className="font-5">KEVIN STEVE</p>
-                    <p className="font-7">Co-Founder, Product Designer</p>
+            <div className="meetteam__team">
+              <div className="tabletteam">
+                <div className="custom">
+                  <div className="custom__avt">
+                    <div className="img_team">P1</div>
                   </div>
-                  <div className="team__custom__info__detail">
-                    <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                  <div className="custom__info">
+                    <div className="custom__info__title">
+                      <p className="custom__info__name">KEVIN STEVE</p>
+                      <p className="custom__info__major">Co-Founder, Product Designer</p>
+                    </div>
+                    <div className="custom__info__detail">
+                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div className="custom__info__contact">
+                      <i class="fa fa-facebook-official ic" ></i>
+                      <i class="fa fa-twitter ic" ></i>
+                      <i class="fa fa-codepen ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                    </div>
+                  </div>
+                </div>
+                <div className="custom">
+                  <div className="custom__avt">
+                    <div className="img_team">P1</div>
+                  </div>
+                  <div className="custom__info">
+                    <div className="custom__info__title">
+                      <p className="custom__info__name">KEVIN STEVE</p>
+                      <p className="custom__info__major">Co-Founder, Product Designer</p>
+                    </div>
+                    <div className="custom__info__detail">
+                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div className="custom__info__contact">
+                      <i class="fa fa-facebook-official ic" ></i>
+                      <i class="fa fa-twitter ic" ></i>
+                      <i class="fa fa-codepen ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                    </div>
                   </div>
                 </div>
               </div>
-              <div className="team__custom">
-                <div className="team__custom__avt">
-                  <div className="img_team">P1</div>
-                </div>
-                <div className="team__custom__info">
-                  <div className="team__custom__info__name">
-                    <p className="font-5">KEVIN STEVE</p>
-                    <p className="font-7">Co-Founder, Product Designer</p>
+
+              <div className="tabletteam1">
+                <div className="custom">
+                  <div className="custom__avt">
+                    <div className="img_team">P1</div>
                   </div>
-                  <div className="team__custom__info__detail">
-                    <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                  </div>
-                </div>
-              </div>
-              <div className="team__custom">
-                <div className="team__custom__avt">
-                  <div className="img_team">P1</div>
-                </div>
-                <div className="team__custom__info">
-                  <div className="team__custom__info__name">
-                    <p className="font-5">KEVIN STEVE</p>
-                    <p className="font-7">Co-Founder, Product Designer</p>
-                  </div>
-                  <div className="team__custom__info__detail">
-                    <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                  <div className="custom__info">
+                    <div className="custom__info__title">
+                      <p className="custom__info__name">KEVIN STEVE</p>
+                      <p className="custom__info__major">Co-Founder, Product Designer</p>
+                    </div>
+                    <div className="custom__info__detail">
+                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                    </div>
+                    <div className="custom__info__contact">
+                      <i class="fa fa-facebook-official ic" ></i>
+                      <i class="fa fa-twitter ic" ></i>
+                      <i class="fa fa-codepen ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                      <i class="fa fa-github-alt ic" ></i>
+                    </div>
                   </div>
                 </div>
               </div>
+
             </div>
           </div>
         </main>
