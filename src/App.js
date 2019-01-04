@@ -83,7 +83,7 @@ class App extends Component {
           <div className="pricing">
             <div className="pricing__content">
               <h1 className="pricing__title">Plans Built For Every One</h1>
-              <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+              <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
               < hr className="gachphancach" />
             </div>
             <div className="pricing__detail">
@@ -94,8 +94,8 @@ class App extends Component {
                   <div className="charge2">9</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                <button className="btnselect">SELECT PLAN</button>
+                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <button className="btn btnselect">SELECT PLAN</button>
               </div>
               <div className="detail">
                 <p className="detail__title">BASIC</p>
@@ -104,8 +104,8 @@ class App extends Component {
                   <div className="charge2">27</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                <button className="btnselect">SELECT PLAN</button>
+                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <button className="btn btnselect">SELECT PLAN</button>
               </div>
               <div className="detail">
                 <p className="detail__title special">PRO</p>
@@ -115,8 +115,8 @@ class App extends Component {
                   <div className="charge2">74</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                <button className="btnselect spe">SELECT PLAN</button>
+                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                <button className="btn btnselect spe">SELECT PLAN</button>
               </div>
               <div className="detail">
                 <p className="detail__title">UNLIMITED</p>
@@ -125,77 +125,78 @@ class App extends Component {
                   <div className="charge2">140</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
-                <button className="btnselect">SELECT PLAN</button>
+                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <button className="btn btnselect">SELECT PLAN</button>
               </div>
             </div>
             <div className="pricing__content1">
-              <div className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.<a className="font-8" href="#">Learn More</a> </div>
+              <div className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <a className="pricing__learnmore" href="#">Learn More</a> </div>
             </div>
           </div>
-          <div className="app__main__services">
-            <div className="app__main__services__content">
-              <h1 className="font-5">We Offer Services</h1>
-              <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+          <div className="services">
+            <div className="services__content">
+              <h1 className="services__title">We Offer Services</h1>
+              <p className="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
               < hr className="gachphancach" />
             </div>
-            <div className="app__main__services__listservice">
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
+            <div className="services__list">
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
                 </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-              </div>
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
-                </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
                 </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
-                </div>
-              </div>
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
-                </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
                 </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
-              <div className="item__service">
-                <div className="item__service__img">
-                  <img className="service_img" src={service1}></img>
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
                 </div>
-                <div className="item__service__content">
-                  <p className="font-9">Hand-crafted with Detailed</p>
-                  <p className="font-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
+                </div>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                </div>
+              </div>
+              <div className="list">
+                <div className="list__img">
+                  <img className="img_service" src={service1}></img>
+                </div>
+                <div className="list__content">
+                  <p className="list__title">Hand-crafted with Detailed</p>
+                  <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                 </div>
               </div>
             </div>
-            <div className="app__main__services__btn"><button className="btnlearnmore">LEARN MORE</button></div>
+            <div className="services__buttons"><button className="btn services__buttons__learnmore">LEARN MORE</button></div>
           </div>
           <div className="app__main__meetteam">
             <div className="app__main__meetteam__content">
