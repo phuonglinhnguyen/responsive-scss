@@ -18,7 +18,7 @@ class App extends Component {
               <div className="header__btn__bar3"></div>
             </div>
             <div className="header__menu">
-              <a className="header__menu__a" href="#">Home</a>
+              <a className="header__menu__a home" href="#">Home</a>
               <a className="header__menu__a" href="#">Explore</a>
               <a className="header__menu__a" href="#">Pricing</a>
               <a className="header__menu__a" href="#">Services</a>
@@ -27,7 +27,7 @@ class App extends Component {
             </div>
           </div>
         </header>
-        <main className=".main">
+        <main className="main">
           <div className="rwd">
             <div className="rwd__content">
               <h1 className="rwd__title">RWD - RESPONSIVE WEB DESIGN</h1>
@@ -39,9 +39,9 @@ class App extends Component {
             </div>
           </div>
           <div className="explore">
-            <div className="explore__content">
-              <h1 className="explore__title">Explore Our Products</h1>
-              <p className="explore__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <div className="content">
+              <h1 className="title">Explore Our Products</h1>
+              <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
               <hr className="gachphancach" />
             </div>
             <div className="explore__work1">
@@ -53,7 +53,8 @@ class App extends Component {
                   <div className="grid-1">
                     <div className="work1__item">
                       <div className="work1__item__title">
-                        <span><p><i class="fa fa-users"></i> Real Project For Real Solutions</p></span>
+                        <i className="fa fa-video-camera color"></i>
+                        <div className="real">Real Project For Real Solutions</div>
                       </div>
                       <div className="work1__item__para">
                         <p className="work1__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
@@ -61,7 +62,8 @@ class App extends Component {
                     </div>
                     <div className="work1__item">
                       <div className="work1__item__title">
-                        <span><p><i class="fa fa-video-camera"></i> Real Project For Real Solutions</p></span>
+                        <i className="fa fa-video-camera color"></i>
+                        <div className="real">Real Project For Real Solutions</div>
                       </div>
                       <div className="work1__item__para">
                         <p className="work1__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
@@ -70,7 +72,8 @@ class App extends Component {
                   </div>
                   <div className="work1__item">
                     <div className="work1__item__title">
-                      <span><p><i class="fa fa-video-camera"></i> Real Project For Real Solutions</p></span>
+                      <i className="fa fa-video-camera color"></i>
+                      <div className="real">Real Project For Real Solutions</div>
                     </div>
                     <div className="work1__item__para">
                       <p className="work1__item__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.</p>
@@ -81,9 +84,9 @@ class App extends Component {
             </div>
           </div>
           <div className="pricing">
-            <div className="pricing__content">
-              <h1 className="pricing__title">Plans Built For Every One</h1>
-              <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+            <div className="content">
+              <h1 className="title">Plans Built For Every One</h1>
+              <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
               < hr className="gachphancach" />
             </div>
             <div className="pricing__detail">
@@ -94,7 +97,7 @@ class App extends Component {
                   <div className="charge2">9</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
                 <button className="btn btnselect">SELECT PLAN</button>
               </div>
               <div className="detail">
@@ -104,7 +107,7 @@ class App extends Component {
                   <div className="charge2">27</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
                 <button className="btn btnselect">SELECT PLAN</button>
               </div>
               <div className="detail">
@@ -115,7 +118,7 @@ class App extends Component {
                   <div className="charge2">74</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
+                <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
                 <button className="btn btnselect spe">SELECT PLAN</button>
               </div>
               <div className="detail">
@@ -125,19 +128,19 @@ class App extends Component {
                   <div className="charge2">140</div>
                   <div className="charge3">/MONTH</div>
                 </div>
-                <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
+                <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. </p>
                 <button className="btn btnselect">SELECT PLAN</button>
               </div>
             </div>
             <div className="pricing__content1">
-              <div className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
+              <div className="learnmore_text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.
               <a className="pricing__learnmore" href="#">Learn More</a> </div>
             </div>
           </div>
           <div className="services">
-            <div className="services__content">
-              <h1 className="services__title">We Offer Services</h1>
-              <p className="services__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <div className="content">
+              <h1 className="title">We Offer Services</h1>
+              <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
               < hr className="gachphancach" />
             </div>
             <div className="services__list">
@@ -148,7 +151,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
                 <div className="list">
@@ -157,7 +160,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
                 <div className="list">
@@ -166,7 +169,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
                 <div className="list">
@@ -175,7 +178,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
               </div>
@@ -186,7 +189,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
                 <div className="list">
@@ -195,7 +198,7 @@ class App extends Component {
                   </div>
                   <div className="list__content">
                     <p className="list__title">Hand-crafted with Detailed</p>
-                    <p className="list__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+                    <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
                   </div>
                 </div>
               </div>
@@ -203,9 +206,9 @@ class App extends Component {
             <div className="services__buttons"><button className="btn services__buttons__learnmore">LEARN MORE</button></div>
           </div>
           <div className="meetteam">
-            <div className="meetteam__content">
-              <h1 className="pricing__title">Meet The Team</h1>
-              <p className="pricing__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+            <div className="content">
+              <h1 className="title">Meet The Team</h1>
+              <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
               < hr className="gachphancach" />
             </div>
             <div className="meetteam__team">
@@ -220,14 +223,14 @@ class App extends Component {
                       <p className="custom__info__major">Co-Founder, Product Designer</p>
                     </div>
                     <div className="custom__info__detail">
-                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                      <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
                     <div className="custom__info__contact">
-                      <i class="fa fa-facebook-official ic" ></i>
-                      <i class="fa fa-twitter ic" ></i>
-                      <i class="fa fa-codepen ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-facebook-official ic" ></i>
+                      <i className="fa fa-twitter ic" ></i>
+                      <i className="fa fa-codepen ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
                     </div>
                   </div>
                 </div>
@@ -241,14 +244,14 @@ class App extends Component {
                       <p className="custom__info__major">Co-Founder, Product Designer</p>
                     </div>
                     <div className="custom__info__detail">
-                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                      <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
                     <div className="custom__info__contact">
-                      <i class="fa fa-facebook-official ic" ></i>
-                      <i class="fa fa-twitter ic" ></i>
-                      <i class="fa fa-codepen ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-facebook-official ic" ></i>
+                      <i className="fa fa-twitter ic" ></i>
+                      <i className="fa fa-codepen ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
                     </div>
                   </div>
                 </div>
@@ -265,14 +268,14 @@ class App extends Component {
                       <p className="custom__info__major">Co-Founder, Product Designer</p>
                     </div>
                     <div className="custom__info__detail">
-                      <p className="custom__info__text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
+                      <p className="text">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum socilis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. </p>
                     </div>
                     <div className="custom__info__contact">
-                      <i class="fa fa-facebook-official ic" ></i>
-                      <i class="fa fa-twitter ic" ></i>
-                      <i class="fa fa-codepen ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
-                      <i class="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-facebook-official ic" ></i>
+                      <i className="fa fa-twitter ic" ></i>
+                      <i className="fa fa-codepen ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
+                      <i className="fa fa-github-alt ic" ></i>
                     </div>
                   </div>
                 </div>
@@ -281,7 +284,7 @@ class App extends Component {
             </div>
           </div>
         </main>
-        <footer className=".footer">
+        <footer className="footer">
           <div className="app__footer__item">
             <h1 className="font-1">About Us</h1>
             <hr className="gachphancachfoot" />
@@ -300,15 +303,15 @@ class App extends Component {
               </div>
 
               <div className="addresscustom">
-                <i class="fa fa-phone icon"></i>
+                <i className="fa fa-phone icon"></i>
                 <p className="font-4">+1235 2355 98</p>
               </div>
               <div className="addresscustom">
-                <i class="fa fa-envelope-o icon"></i>
+                <i className="fa fa-envelope-o icon"></i>
                 <p className="font-4">info@yoursite.com</p>
               </div>
               <div className="addresscustom">
-                <i class="fa fa-globe icon"></i>
+                <i className="fa fa-globe icon"></i>
                 <p className="font-4">www.yoursite.com</p>
               </div>
             </div>
